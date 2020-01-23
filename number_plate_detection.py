@@ -69,8 +69,8 @@ while True:
                 if (connection.is_connected()):
                     connection.close()
 
-            account_sid = 'AC68d07d80b68557b6655f0e6a60ee70cc'
-            auth_token = 'fdcf880f90ab366899efac81dadd8341'
+            account_sid = ''
+            auth_token = ''
             client = Client(account_sid, auth_token)
             message = client.messages \
                 .create(
